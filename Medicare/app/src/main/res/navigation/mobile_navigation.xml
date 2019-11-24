@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.android.medicare.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_doctor"
+        android:name="com.android.medicare.ui.doctor.DoctorFragment"
+        android:label="@string/menu_doctor"
+        tools:layout="@layout/fragment_doctor" />
+
+    <fragment
+        android:id="@+id/nav_ambulance"
+        android:name="com.android.medicare.ui.ambulance.AmbulanceFragment"
+        android:label="@string/menu_ambulance"
+        tools:layout="@layout/fragment_ambulance" />
+
+    <fragment
+        android:id="@+id/nav_department"
+        android:name="com.android.medicare.ui.department.DepartmentFragment"
+        android:label="@string/menu_department"
+        tools:layout="@layout/fragment_department" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.android.medicare.ui.register.RegisterFragment"
+        android:label="@string/menu_register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_blood"
+        android:name="com.android.medicare.ui.blood.BloodFragment"
+        android:label="@string/menu_blood"
+        tools:layout="@layout/fragment_blood" />
+</navigation>
