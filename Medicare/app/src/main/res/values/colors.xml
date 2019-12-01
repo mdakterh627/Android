@@ -3,5 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorYellow">#F5E12F</color>
+    <color name="Blue">#2196F3</color>
+    <color name="purple">#5E35B1</color>
+    <color name="megenda">#F4511E</color>
 
 </resources>

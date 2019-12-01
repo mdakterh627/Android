@@ -20,16 +20,9 @@ public class DoctorFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        doctorViewModel =
-                ViewModelProviders.of(this).get(DoctorViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_doctor, container, false);
-        final TextView textView = root.findViewById(R.id.text_doctor);
-        doctorViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
         return root;
     }
 

@@ -26,9 +26,9 @@
                 android:icon="@drawable/blood"
                 android:title="@string/menu_blood" />
             <item
-                android:id="@+id/nav_register"
+                android:id="@+id/nav_booking"
                 android:icon="@drawable/register"
-                android:title="@string/menu_register" />
+                android:title="@string/menu_booking" />
             <item
                 android:id="@+id/nav_ambulance"
                 android:icon="@drawable/ambulance"

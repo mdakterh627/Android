@@ -11,5 +11,5 @@
     <string name="menu_ambulance">Ambulance</string>
     <string name="menu_department">Department</string>
     <string name="menu_blood">Blood</string>
-    <string name="menu_register">Register</string>
+    <string name="menu_booking">Booking</string>
 </resources>

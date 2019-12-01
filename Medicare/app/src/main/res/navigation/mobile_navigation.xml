@@ -30,10 +30,10 @@
         tools:layout="@layout/fragment_department" />
 
     <fragment
-        android:id="@+id/nav_register"
-        android:name="com.android.medicare.ui.register.RegisterFragment"
-        android:label="@string/menu_register"
-        tools:layout="@layout/fragment_register" />
+        android:id="@+id/nav_booking"
+        android:name="com.android.medicare.ui.booking.BookingFragment"
+        android:label="@string/menu_booking"
+        tools:layout="@layout/fragment_booking" />
 
     <fragment
         android:id="@+id/nav_blood"

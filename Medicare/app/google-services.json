@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690541816992",
+    "firebase_url": "https://test-push-notification-7028e.firebaseio.com",
+    "project_id": "test-push-notification-7028e",
+    "storage_bucket": "test-push-notification-7028e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690541816992:android:6558185e1aa95073fdadc5",
+        "android_client_info": {
+          "package_name": "com.android.medicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690541816992-cjlc3fdt6kjb578bq83ab2pe883upadb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV52luKBHVVMbAIG5R3KLaQ-q6AAPn8Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690541816992-cjlc3fdt6kjb578bq83ab2pe883upadb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
