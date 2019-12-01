@@ -28,7 +28,6 @@
 
     </RelativeLayout>
 
-
     <GridLayout
         android:columnCount="2"
         android:rowCount="3"
@@ -78,14 +77,6 @@
 
         </androidx.cardview.widget.CardView>
 
-    </GridLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -126,14 +117,6 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -149,14 +132,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/Blue"
-                    android:src="@drawable/eye"
+                    android:src="@drawable/cardiology"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Eye Care"/>
+                    android:text="Cardiology"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
@@ -174,14 +157,6 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -197,14 +172,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/Blue"
-                    android:src="@drawable/urology"
+                    android:src="@drawable/dental"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Urology"/>
+                    android:text="Dental Care"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
@@ -222,14 +197,6 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -245,14 +212,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/Blue"
-                    android:src="@drawable/nurology"
+                    android:src="@drawable/cardiology"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Nurology"/>
+                    android:text="Cardiology"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
@@ -270,14 +237,6 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -293,14 +252,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/Blue"
-                    android:src="@drawable/plasticsurgery"
+                    android:src="@drawable/dental"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Plastic Surgery"/>
+                    android:text="Dental Care"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
@@ -317,9 +276,5 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
-
-
-
+    </GridLayout>
 </LinearLayout>

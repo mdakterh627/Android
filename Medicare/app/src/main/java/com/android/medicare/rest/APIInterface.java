@@ -13,7 +13,7 @@ public interface APIInterface {
 
     @GET("/MyProject/booking")
     Call<List<Booking>> getBookings();
-    @POST("/MyProject/saveBooking")
+    @POST("/MyProject/saveBooking/")
     Call<Booking> insertBooking(@Body Booking b);
 
 }

@@ -47,6 +47,9 @@ public class BookingFragment extends Fragment {
             public void onClick(View v) {
                 // set text ""
                 name.setText("");
+                age.setText("");
+                phone.setText("");
+                date.setText("");
             }
         });
         save.setOnClickListener(new View.OnClickListener() {

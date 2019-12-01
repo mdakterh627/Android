@@ -12,4 +12,5 @@
     <string name="menu_department">Department</string>
     <string name="menu_blood">Blood</string>
     <string name="menu_booking">Booking</string>
+    <string name="menu_book_show">Booking Show</string>
 </resources>

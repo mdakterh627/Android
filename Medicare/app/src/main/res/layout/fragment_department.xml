@@ -10,29 +10,11 @@
     android:weightSum="10"
     android:background="@color/colorPrimary">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        >
-        <TextView
-            android:id="@+id/textGrid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Department"
-            android:textStyle="bold"
-            android:textSize="34sp"
-            android:layout_centerInParent="true"
-            android:textColor="@color/colorYellow"
-            />
-
-    </RelativeLayout>
-
 
     <GridLayout
         android:columnCount="2"
         android:rowCount="3"
-        android:layout_weight="8"
+        android:layout_weight="10"
         android:alignmentMode="alignMargins"
         android:columnOrderPreserved="false"
         android:layout_width="match_parent"
@@ -42,7 +24,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,19 +60,11 @@
 
         </androidx.cardview.widget.CardView>
 
-    </GridLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -126,19 +100,11 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -174,19 +140,11 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -222,19 +180,11 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -270,19 +220,11 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -317,9 +259,5 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
-
-
-
+    </GridLayout>
 </LinearLayout>
